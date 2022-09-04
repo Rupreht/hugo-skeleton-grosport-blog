@@ -1,5 +1,5 @@
 +++
-title = "联系我们"
+title = "Контакты"
 layout = "contact"
 [menu.footer]
   parent = "support"

@@ -1,8 +1,8 @@
 baseURL: /
-title: Hugo Bootstrap Skeleton
+title: "GroSport: Events"
 theme: github.com/razonyang/hugo-theme-bootstrap
-copyright: 'Copyright © 2016-{year} Razon Yang. All Rights Reserved.'
-defaultContentLanguage: en
+copyright: 'Copyright © 2016-{year} Лыжное сообщество. All Rights Reserved.'
+defaultContentLanguage: ru-ru
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true
 # disableLanguages:

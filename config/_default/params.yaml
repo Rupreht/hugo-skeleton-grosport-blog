@@ -1,7 +1,7 @@
 mainSections:
-  - blog
-  - posts
-  - news
+  # - blog
+  # - posts
+  # - news
 
 # titleSeparator: | # Title separator. Default to -.
 
@@ -15,9 +15,9 @@ keywords: Hugo, Bootstrap, Blog Theme
 
 # logo: images/logo.png # Logo image. Default to images/logo.webp.
 # logo: false # Disable Logo
-brand: HBS
+brand: GroSport
 
-palette: purple # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: cyan # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -34,6 +34,7 @@ palette: purple # Default palette. Optional. You'll need to clear the browser ca
 #  - yellow
 
 # color: dark # light, dark or auto. Default to auto.
+color: light
 
 # fullWidth: true # Full width.
 # fixedHeader: false # Turn on/off fixed header.
@@ -53,6 +54,7 @@ googleAdsense:
 # searchBar: false # disable search-bar
 
 # poweredBy: false # Whether to show powered by.
+poweredBy: ''
 
 # readingTime: false # Whether to display the reading time.
 # postDate: false # Whether to display the post date in the post meta section.
@@ -127,7 +129,7 @@ creativeCommons:
   # sa: true # Adaptations must be shared under the same terms.
 
 utterances:
-  repo: razonyang/hugo-theme-bootstrap-skeleton # Replace with your repository.
+  repo: Rupreht/hugo-theme-bootstrap-skeleton # Replace with your repository.
   #issueTerm: pathname # pathname, url, title, og:title
   label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
@@ -167,7 +169,7 @@ fontSize:
 pwa:
   manifest:
     # name:  # Default to site title.
-    short_name: HBS
+    short_name: GS
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
     # theme_color: 
@@ -181,19 +183,19 @@ pwa:
     #   sizes: 144x144
     #   src: /images/icons/icon-144x144.png
 
-contact:
-  endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
-  # file: true # Enable file upload
-  # fileField: image # The name of file field.
+# contact:
+#   endpoint: https://getform.io/f/56041c81-9e03-4c24-b9c5-61238854d4cd # Backend endpoint, remove this line if you're using Netlify.
+#   # file: true # Enable file upload
+#   # fileField: image # The name of file field.
 
 repo:
-  url: https://github.com/razonyang/hugo-theme-bootstrap-skeleton
+  url: https://github.com/Rupreht/hugo-theme-bootstrap-skeleton
   # branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 
-topAppBar:
-  social:
-    github: razonyang/hugo-theme-bootstrap
-    patreon: razonyang
-    paypal: razonyang
+# topAppBar:
+#   social:
+#     github: razonyang/hugo-theme-bootstrap
+#     patreon: razonyang
+#     paypal: razonyang

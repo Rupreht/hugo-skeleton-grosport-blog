@@ -1,13 +1,13 @@
 en:
   languageName: English
-  weight: 1
+  weight: 2
 
-zh-cn:
-  languageName: 简体中文
-  weight: 4
+ru-ru:
+  languageName: Русский
+  weight: 1
   params:
-    dateFormat: '2006-01-02'
-    description: 一个快速、响应式和功能丰富的 Hugo 博客主题
-    keywords: 'Hugo, Bootstrap, 博客主题'
+    dateFormat: '02-01-2006'
+    description: 'GroSport, спортивное питание Екатеринбург, High5, Sponser, Sis, Zipvit, Elite, Powerup, Power up, Powerbar, Power bar, Isostar, Multipower, Squeezy, GU, SaltStick, Nutrend, ON, NOW, Maxler, Natrol, Optium Nutrition'
+    keywords: 'Hugo, Bootstrap, GroSport, gro-sport, ГроСпорт, гро-спорт, гро, gro, спортивное питание, спортивное питание для выносливости, питание для бега, бег, лыжи, кросс, велогонка, длительная, марафон, полумарафон, ультрамарафон, marathon, Transural, трансурал, триатлон, изотоник, isotonic, энергетические гели, питание на марафон, гели на марафон, high5, sponser, sis, zipvit, elite, powerup, power up, powerbar, Nutrend, power bar, электролиты, isostar, multipower, squeezy, арена, спортивное питание екатеринбург, магазин спортивного питания, солевые таблетки, айронмен, ironman, GU, SaltStick, Zet, лыжная смазка, Nutrend, ON, NOW, Maxler, Natrol, Optium Nutrition'
     archive:
-      dateFormat: 01-02
+      dateFormat: 02-01

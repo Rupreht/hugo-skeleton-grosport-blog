@@ -42,7 +42,7 @@ color: light
 # dateFormat: Jan 2, 2006
 
 # Google Adsense
-googleAdsense: 
+googleAdsense:
 
 # math: true # Enable math globally.
 # toc: false # Disable TOC globally.
@@ -95,10 +95,10 @@ codeBlock:
   lineNos: false # true/false represents that show/hide the line numbers by default.
 
 post:
-  # excerpt: description
-  # excerptMaxLength: 120
-  # copyright: false # Whether to display copyright section on each post.
-  # plainifyExcerpt: false # Format excerpt in HTML if false.
+  excerpt: description
+  excerptMaxLength: 120
+  copyright: false # Whether to display copyright section on each post.
+  plainifyExcerpt: false # Format excerpt in HTML if false.
   featuredImage: true # Show the featured image above the content.
   numberifyHeadings: true # Count headings automatically.
   # numberifyHeadingsEndLevel: 4 # The depth of headings to count. Default to 6.

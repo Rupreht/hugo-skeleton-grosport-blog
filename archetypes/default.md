@@ -1,10 +1,11 @@
 ---
-# type: docs 
 title: {{ replace .Name "-" " " | title }}
 date: {{ .Date }}
-featured: false
 draft: true
-comment: true
+author:
+description: ''
+featured: false
+comment: false
 toc: true
 reward: true
 pinned: false

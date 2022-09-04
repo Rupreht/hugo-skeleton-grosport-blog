@@ -1,5 +1,4 @@
 ---
-# type: docs 
 title: More Image Processing Methods
 date: 2022-07-08T11:34:47+08:00
 featured: true
@@ -13,6 +12,7 @@ series:
   - News
 categories:
   - Image
+  - News
 tags: 
   - Crop
   - Fit

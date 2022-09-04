@@ -9,8 +9,7 @@ toc: true
 reward: false
 pinned: false
 carousel: true
-series:
-  - Economics
+series: []
 categories:
   - News
 tags:

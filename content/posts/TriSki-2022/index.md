@@ -59,7 +59,6 @@ images: []
 - Лично мужчины 1-3 места
 - Эстафета мужчины 1-3 места
 - Эстафета смешанная 1-3 места
-
 ![GroSport Награды TriSki](e74519bbeb13e8bf03a90.jpg "GroSport Награды TriSki")
 
 ⚠ На этом спортивном мероприятии Вас ждёт:
@@ -78,17 +77,10 @@ images: []
 Регистрация: https://gro-sport.ru/triski
 
 [Видео как это было](https://vk.com/video_ext.php?oid=-102571335&id=456239029&hash=2aa4ce08f98d1315&hd=2&autoplay=1)
-
 ![GroSport TriSki](758cd034e5bb7ae38911d.jpg "GroSport TriSki")
-
 ![GroSport TriSki](7fef2dfdcad7f4019e7e1.jpg "GroSport TriSki")
-
 ![GroSport TriSki](48d040bfd1d6a76772ab9.jpg "GroSport TriSki")
-
 ![GroSport TriSki](acf91fa91747db365e6ee.jpg "GroSport TriSki")
-
 ![GroSport TriSki](8fc5be9f624015adc8648.jpg "GroSport TriSki")
-
 ![GroSport TriSki](ab499ae5324a29ba94c47.jpg "GroSport TriSki")
-
 ![GroSport TriSki](9597945671196eec413a9.jpg "GroSport TriSki")

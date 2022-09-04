@@ -17,11 +17,11 @@ Please make sure you have install the [build tools](https://hbs.razonyang.com/v1
 
 **1. Clone this repository**
 
-```shell
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton.git blog
-$ cd blog
-$ rm -rf .git
-$ git init -b main
+```bash
+git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton.git blog
+cd blog
+rm -rf .git
+git init -b main
 ```
 
 > The `rm -rf .git` is a dangerous action, please make sure that you enter the right folder.
@@ -36,11 +36,11 @@ module github.com/razonyang/hugo-theme-bootstrap-skeleton
 
 **3. Commit and push changes to your repository**
 
-```shell
-$ git add -A
-$ git commit -m 'First commit'
-$ git remote set-url origin github.com/user/repo
-$ git push origin main
+```bash
+git add -A
+git commit -m 'First commit'
+git remote set-url origin github.com/user/repo
+git push origin main
 ```
 
 ## Go Proxy(Optional)
@@ -50,7 +50,7 @@ If you're located at China mainland without VPN, the Hugo module download may fa
 There are two proxies for this: [GOPROXY.CN](https://goproxy.cn) and [GOPROXY.IO](https://goproxy.io).
 
 ```bash
-$ export HUGO_MODULE_PROXY=https://goproxy.cn
+export HUGO_MODULE_PROXY=https://goproxy.cn
 ```
 
 > Please note that, Hugo doesn't respect the `GOPROXY` env var, please use `HUGO_MODULE_PROXY` instead.
@@ -66,26 +66,26 @@ module:
 
 **1. Install dependencies**
 
-```shell
-$ npm i
+```bash
+npm i
 ```
 
 Generally, this step only needs to be performed once for each local project.
 
 **2. Start server**
 
-```shell
-$ hugo server
+```bash
+hugo server
 ```
 
 ## Upgrade theme
 
-```shell
-$ hugo mod get razonyang/hugo-theme-bootstrap@master
-$ hugo mod npm pack
-$ npm i
-$ git add go.mod go.sum package.json package-lock.json
-$ git commit -m 'Update the theme'
+```bash
+hugo mod get razonyang/hugo-theme-bootstrap@master
+hugo mod npm pack
+npm i
+git add go.mod go.sum package.json package-lock.json
+git commit -m 'Update the theme'
 ```
 
 ## Deployment

@@ -1,0 +1,12 @@
+.post-content p, .post-summary p {
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+}
+
+p img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

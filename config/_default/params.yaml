@@ -17,7 +17,7 @@ keywords: Hugo, Bootstrap, Blog Theme
 # logo: false # Disable Logo
 brand: GroSport
 
-palette: cyan # Default palette. Optional. You'll need to clear the browser cache after modifying this.
+palette: yellow # Default palette. Optional. You'll need to clear the browser cache after modifying this.
 # Available palettes. Default to ALL. Empty array means disable.
 # palettes:
 #  - blue
@@ -114,23 +114,18 @@ analytics:
 
 # Site verification
 siteVerification:
-  google: 
-  bing: 
-  baidu: 
-  baiduUnion:  # Baidu Union
-  so: 
-  sogou: 
-  shenma: 
+  google:
+  yandex:
 
 creativeCommons:
   # by: true # Credit must be given to you, the creator.
-  # nc: true # Only noncommercial use of your work is permitted.
+  nc: true # Only noncommercial use of your work is permitted.
   # nd: true # No derivatives or adaptations of your work are permitted.
   # sa: true # Adaptations must be shared under the same terms.
 
 utterances:
   repo: Rupreht/hugo-theme-bootstrap-skeleton # Replace with your repository.
-  #issueTerm: pathname # pathname, url, title, og:title
+  issueTerm: pathname # pathname, url, title, og:title
   label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
@@ -150,11 +145,11 @@ search:
     # useExtendedSearch: true
 
 reward:
-  alipay: images/reward/alipay.png
-  wechat: images/reward/wechat.png
-  #paypal: images/reward/paypal.png
-  #patreon: images/reward/patreon.png
-  #liberapay: images/reward/liberapay.png
+  # alipay: images/reward/alipay.png
+  # wechat: images/reward/wechat.png
+  # paypal: images/reward/paypal.png
+  # patreon: images/reward/patreon.png
+  # liberapay: images/reward/liberapay.png
 
 #[share]
   #addThis:  # AddThis pubid.
@@ -190,7 +185,7 @@ pwa:
 
 repo:
   url: https://github.com/Rupreht/hugo-theme-bootstrap-skeleton
-  # branch: main
+  branch: main
   # subPath: exampleSite
   # dateFormat: 02/01/2006, 15:04:05 PM
 

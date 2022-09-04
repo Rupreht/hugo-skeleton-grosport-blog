@@ -34,6 +34,5 @@ RUN hugo --minify --gc --enableGitInfo
 # Final Stage #
 ###############
 FROM nginx
-# COPY --from=builder /src/public /app
-COPY --from=builder /src /app
+COPY --from=builder /src/public /app
 COPY deploy/nginx/default.conf /etc/nginx/conf.d/default.conf

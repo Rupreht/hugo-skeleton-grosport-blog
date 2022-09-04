@@ -2,11 +2,8 @@ name: Alex Groshev
 # avatar: images/profile.png # Avatar image. Default to "images/profile.webp".
 bio: 'Founder GroSport'
 company: GroSport # HTML markup are supported, such as: <a href="https://example.com" target="_blank" rel="noopener noreferrer">Company</a>.
-location: 56.83108,60.44056 # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
+location: "Биатлон, Екатеринбург, 620002, Россия" # HTML markup are supported, such as: <a href='https://www.openstreetmap.org/search?query=Earth'>Earth</a>.
 about: https://gro-sport.ru/about_us/ # The external about page. The internal about page will be used if not set.
-params: {
-  layout: compact
-}
 social:
   vk: alexgroshev
   website: https://gro-sport.ru/

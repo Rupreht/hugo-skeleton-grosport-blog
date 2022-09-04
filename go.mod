@@ -1,4 +1,4 @@
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
+module github.com/Rupreht/hugo-theme-bootstrap-skeleton
 
 go 1.18
 

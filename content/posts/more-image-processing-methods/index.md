@@ -5,7 +5,7 @@ featured: true
 draft: false
 comment: true
 toc: true
-reward: true
+reward: false
 pinned: false
 carousel: true
 series:

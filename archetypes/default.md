@@ -7,7 +7,7 @@ description: ''
 featured: false
 comment: false
 toc: true
-reward: true
+reward: false
 pinned: false
 carousel: false
 series:

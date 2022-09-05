@@ -89,10 +89,17 @@ images:
 > Ждём вас на спортивном празднике!
 
 {{< figure src="197042d3ce19f917d46e4.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="1ada690d715a49a3961c4.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="2805474190861102b08db.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="62435d9fa6d6f00b5f85d.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="7e017d8dca40b67ee5d8c.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="7e39cb5e4d6ef7108923f.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="c539104674ae411fccd83.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}
+
 {{< figure src="d113ab5db29263de3d578.jpeg" alt="Лыжероллерный триатлон #RollerSkiTriathlon" >}}

@@ -60,7 +60,7 @@ images: []
 - Эстафета мужчины 1-3 места
 - Эстафета смешанная 1-3 места
 
-![GroSport Награды TriSki](e74519bbeb13e8bf03a901.jpg "GroSport Награды TriSki")
+{{< figure src="e74519bbeb13e8bf03a901.jpg" alt="GroSport Награды TriSki" >}}
 
 ⚠ На этом спортивном мероприятии Вас ждёт:
 
@@ -79,16 +79,18 @@ images: []
 
 [Видео как это было](https://vk.com/video_ext.php?oid=-102571335&id=456239029&hash=2aa4ce08f98d1315&hd=2&autoplay=1)
 
-![GroSport TriSki](758cd034e5bb7ae38911d.jpg "GroSport TriSki")
+{{< youtube JuEx024mfV4 >}}
 
-![GroSport TriSki](7fef2dfdcad7f4019e7e1.jpg "GroSport TriSki")
+{{< figure src="758cd034e5bb7ae38911d.jpg" alt="GroSport TriSki" >}}
 
-![GroSport TriSki](48d040bfd1d6a76772ab9.jpg "GroSport TriSki")
+{{< figure src="7fef2dfdcad7f4019e7e1.jpg" alt="GroSport TriSki" >}}
 
-![GroSport TriSki](acf91fa91747db365e6ee.jpg "GroSport TriSki")
+{{< figure src="48d040bfd1d6a76772ab9.jpg" alt="GroSport TriSki" >}}
 
-![GroSport TriSki](8fc5be9f624015adc8648.jpg "GroSport TriSki")
+{{< figure src="acf91fa91747db365e6ee.jpg" alt="GroSport TriSki" >}}
 
-![GroSport TriSki](ab499ae5324a29ba94c47.jpg "GroSport TriSki")
+{{< figure src="8fc5be9f624015adc8648.jpg" alt="GroSport TriSki" >}}
 
-![GroSport TriSki](9597945671196eec413a9.jpg "GroSport TriSki")
+{{< figure src="ab499ae5324a29ba94c47.jpg" alt="GroSport TriSki" >}}
+
+{{< figure src="9597945671196eec413a9.jpg" alt="GroSport TriSki" >}}

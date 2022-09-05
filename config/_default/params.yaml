@@ -88,9 +88,9 @@ viewer: true # Image Viewer
 sidebar:
   # fixed: true
 
-codeBlock:
-  # maxLines: 8
-  lineNos: false # true/false represents that show/hide the line numbers by default.
+# codeBlock:
+#   maxLines: 8
+#   lineNos: false # true/false represents that show/hide the line numbers by default.
 
 post:
   excerpt: description

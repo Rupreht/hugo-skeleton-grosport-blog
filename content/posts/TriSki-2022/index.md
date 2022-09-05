@@ -60,7 +60,7 @@ images: []
 - Эстафета мужчины 1-3 места
 - Эстафета смешанная 1-3 места
 
-![GroSport Награды TriSki](e74519bbeb13e8bf03a90.jpg "GroSport Награды TriSki")
+![GroSport Награды TriSki](e74519bbeb13e8bf03a901.jpg "GroSport Награды TriSki")
 
 ⚠ На этом спортивном мероприятии Вас ждёт:
 

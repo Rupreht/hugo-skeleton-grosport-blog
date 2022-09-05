@@ -1,4 +1,4 @@
-module github.com/Rupreht/hugo-theme-bootstrap-skeleton
+module github.com/Rupreht/hugo-skeleton-grosport-blog
 
 go 1.18
 

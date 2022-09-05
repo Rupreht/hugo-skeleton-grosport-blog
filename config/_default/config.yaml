@@ -6,9 +6,9 @@ defaultContentLanguage: ru-ru
 # hasCJKLanguage: true # Uncomment it if your content contains Chinese/Japanese/Korean Languages.
 # defaultContentLanguageInSubdir: true
 disableLanguages:
- - fr
- - zh-cn
- - zh-tw
+  - fr
+  - zh-cn
+  - zh-tw
 paginate: 10
 # paginatePath: page
 enableRobotsTXT: true

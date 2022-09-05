@@ -1,14 +1,12 @@
 mainSections:
-  # - blog
-  # - posts
-  # - news
+  - posts
 
 # titleSeparator: | # Title separator. Default to -.
 
 description: An extreme fast, responsive and feature-rich blog theme for Hugo
 keywords: Hugo, Bootstrap, Blog Theme
-# images:
-#   - site-feature-image.jpg
+images:
+  - site-feature-image.jpg
 
 # metaRobots: noindex, nofollow # Default value for Meta Tag robots
 # metaRobots:  # disable Meta Tag robots
@@ -124,12 +122,12 @@ creativeCommons:
   # sa: true # Adaptations must be shared under the same terms.
 
 utterances:
-  repo: Rupreht/hugo-theme-bootstrap-skeleton # Replace with your repository.
+  repo: Rupreht/hugo-skeleton-grosport-blog # Replace with your repository.
   issueTerm: pathname # pathname, url, title, og:title
   label: comment
   # By default, light and dark mode correspond to github-light and github-dark, respectively.
   # Optional values: github-light, github-dark, preferred-color-scheme, github-dark-orange, icy-dark, dark-blue, photon-dark.
-  #theme:  
+  #theme:
 
 search:
   paginate: 5 # Pagination. Default to 10.
@@ -167,8 +165,8 @@ pwa:
     short_name: GS
     # display: fullscreen # Default to standalone.
     # description:  # Default to site description.
-    # theme_color: 
-    # background_color: 
+    # theme_color:
+    # background_color:
 
     # Icons
     # [[pwa.manifest.icons]]

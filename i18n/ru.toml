@@ -77,7 +77,7 @@ other = "{{ .PageNumber }} - страница"
 other = "Palitra"
 
 [read_more]
-other = "Read More"
+other = "Читать далее"
 
 [reading_time]
 other = "Читается за {{ .ReadingTime }} минуты"

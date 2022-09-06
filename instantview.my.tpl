@@ -1,43 +1,51 @@
-# This sample template explores how we can turn the Medium post on the left into a Telegram Instant View page as shown on the right — in several simple steps. If you're unsure what some of the elements used here do, check out the full documentation here: https://instantview.telegram.org/docs
+# This sample template explores how we can turn the Telegraph post on the left into an Instant View page as shown on the right — in several simple steps. If you're unsure what some of the elements used here do, check out the full documentation here: https://instantview.telegram.org/docs
 
 # Place the version at the beginning of template. We recommend always using the latest available version of Instant View.
 ~version: "2.0"
 
 ### STEP 1: Define which pages get Instant View and which don't
 
-# We only want to generate Instant View pages for articles. Other things, like lists of articles, profiles, the about section, etc. should be ignored.
-# Conveniently, all article pages on Medium seem to have a <meta property="article:published_time"> tag.
-# If this tag is not present, we'll assume that the page is not an article and does not require an Instant View page.
-# This *condition* does the trick:
-?exists: /html/head/meta[@property="article:published_time"]
+# All pages on telegra.ph are articles, with one exception: the main page is blank and lets you create new articles.
+# This *condition* tells our Instant View bot to apply rules to all pages except the root page, telegra.ph/
+?path: /.+
 
 ### STEP 2: Define the essential elements
 
-# The 'body' and 'title' *properties* are required for an Instant View page to work. 
-# 'Subtitle' is optional for IV pages, but Medium posts can have subtitles, so it is essential that we reflect this in our template.
-body:     //article
-title:    $body//h1[1]
-subtitle: $title/next-sibling::h2
+# Now we'll start filling up the IV page.
+# To make things easier, we begin by setting up some *variables* before we start our manipulations.
+$header: //header
+body:    //article
 
-### Now we'll set a cover image. It's also not required, but we need one if we want our Instant view page to look cool.
+# By default sequences of whitespaces are collapsed into a single whitespace by the browser. The IV bookworm bot does this too, but Telegra.ph preserves whitespaces in the entire article node.
+# So we'll use the '@pre' *function* to instruct the IV bot to preserve whitespaces in all of these nodes.
+@pre:    $body//*
 
-# Some Medium posts have a cover image in the header background, we can use that.
-# First, let's assign the background node to the '$bg_section' *variable* for subsequent use.
-$bg_section: $body//section[has-class("is-imageBackgrounded")]
-# Call the @background_to_image *function* to convert the background image to an <img>
-@background_to_image: $bg_section//div[has-class("section-backgroundImage")]
-# Replace the //div tag with <figure> tags.
-<figure>: $bg_section//div[has-class("section-background")]
-# Set the figure as the value of the 'cover' *property*.
-cover: $bg_section//figure
+# Now to fill the essential properties
+title:          $body//h1
+subtitle:       $body//h2
+author:         $header//address/a[@rel="author"]
+author_url:     $author/@href
+published_date: $header//address/time/@datetime
+@remove:        $body//address
 
-### Now to find an image for link previews. Links shared via Telegram will show an extended preview with a small picture in the chat. Let's try to find something for this image.
+# See if the author name is a URL of a Telegram channel. If it is, assign its username to the *channel* property. This will display the channel name prominently on the Instant View page and add neat 'Join' button for users that are not members of the channel yet.
+@clone: $author_url
+@match("^https?://t(elegram)?\\.me/([a-z0-9_]+)$", 2, "i"): $@
+@replace(".+", "@$0")
+channel
 
-# If we've already got a cover, we'll use it for the link preview image too.
+cover: $body//h1/next-sibling::figure[.//video]
+cover: $body//h1/next-sibling::figure[.//img]
+cover: $body//div[2]/div[3]/figure[1]/img
+cover: $body/div[2]/picture/img
+
 image_url: $cover/self::img/@src
 image_url: $cover/self::figure//img/@src
+image_url: /html/head/meta[@property="og:image"] \
+             /@content[string()]
+image_url: $body//img/@src
 
-# If we didn't find a cover, we'll take a picture from the meta tags. 
-# Otherwise, the link preview will just have text in it, which is also OK.
-image_url: //head/meta[@property="og:image"]/@content
-
+# IV supports anchors.
+# We can add them before each of h3/h4 headers
+@before(<anchor>, name, @id): $body//h3[@id]
+@before(<anchor>, name, @id): $body//h4[@id]
